@@ -1,0 +1,11 @@
+package se.mycompany.test;
+
+import java.time.LocalDateTime;
+
+rule "Test debug"
+ruleflow-group "DEBUG_TIME"
+    when
+        date : LocalDateTime()
+    then
+        System.out.println("Current trigger time is: " + date);
+end
