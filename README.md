@@ -2,7 +2,7 @@
 
 Run
 
-* mvn clean install
+* mvn clean package
 * java -jar target/test-0.0.1-SNAPSHOT.jar
 
 Printed to the console:
